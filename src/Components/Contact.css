@@ -1,0 +1,101 @@
+.contactWrapper {
+  max-width: 60rem;
+  min-height: 40rem;
+  box-shadow: 12px 12px 18px -6px rgba(0, 0, 0, 0.568);
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(5px);
+  margin: auto;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contactWrapper h1 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.contactWrapper p {
+  text-align: center;
+}
+
+.nameEmailWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameInput {
+  width: 18rem;
+  background-color: rgba(255, 255, 255, 0.479);
+  border: 1px solid grey;
+  height: 2.5rem;
+  border-radius: 3px;
+  margin: 1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  outline: none;
+}
+
+.emailInput {
+  width: 18rem;
+  background-color: rgba(255, 255, 255, 0.466);
+  border: 1px solid grey;
+  height: 2.5rem;
+  border-radius: 3px;
+  margin: 1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  outline: none;
+}
+
+.messageArea {
+  width: 38rem;
+  background-color: rgba(255, 255, 255, 0.466);
+  border: 1px solid grey;
+  height: 2.5rem;
+  border-radius: 3px;
+  margin: 1rem;
+  padding: 7px;
+  outline: none;
+  height: 10rem;
+  font-family: 'Poppins', sans-serif;
+  max-width: 40rem;
+  /* font-size: inherit; */
+}
+
+@media (max-width: 665px) {
+  .messageArea {
+    width: 18rem;
+  }
+}
+
+.contactButton {
+  margin-top: 2rem;
+  width: 14rem;
+  height: 2.5rem;
+  background-color: rgba(29, 29, 29, 0.466);
+  /* border: 1px solid rgb(255, 255, 255); */
+  box-shadow: none;
+  border: none;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+#myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
