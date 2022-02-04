@@ -1,0 +1,341 @@
+.button-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: transparent;
+}
+
+.button-text {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 0.7rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0.5rem;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.button-one-left {
+  background: transparent;
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+
+  position: relative;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-shadow: 3px 3px 13px 4px rgb(0, 0, 0, 0.3);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 3px;
+
+  background-image: linear-gradient(
+    -45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.8) 51%,
+    transparent 100%
+  );
+  transition: 0.3s ease-in;
+  background-position: right top;
+  backdrop-filter: blur(5px);
+  color: black;
+}
+
+.button-one-left:hover {
+  background-position: left bottom;
+  /* border: 1px solid rgb(207, 207, 207); */
+  outline: none;
+}
+
+.button-one-right {
+  background: transparent;
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  position: relative;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-shadow: 3px 3px 13px 4px rgb(0, 0, 0, 0.3);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 3px;
+  background-image: linear-gradient(
+    -45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.8) 51%,
+    transparent 100%
+  );
+  transition: 0.3s ease-in;
+  background-position: right top;
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+}
+
+.button-one-right:hover {
+  background-position: left bottom;
+  /* border: 1px solid rgb(207, 207, 207); */
+  outline: none;
+}
+
+.big-margin {
+  height: 15rem;
+  width: 100%;
+}
+
+.project-text {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: absolute;
+  width: 16rem;
+  height: 28rem;
+
+  right: 0;
+  top: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-text h1 {
+  margin-top: 2rem;
+  color: rgb(73, 73, 73);
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.project-text p {
+  color: rgb(71, 71, 71);
+  font-weight: bold;
+  text-align: justify;
+}
+
+.projects_head {
+  text-align: center;
+  color: black;
+  height: 30rem;
+  background-color: rgba(255, 255, 255);
+}
+
+.par-image2 {
+  background-attachment: fixed;
+}
+
+.project-info-divider {
+  height: 2px;
+  width: 8rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(121, 251, 255, 0.822),
+    rgba(10, 55, 255, 0.418)
+  );
+  margin: auto;
+}
+
+.project-tech-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.project-tech-unit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: auto;
+  min-width: 40%;
+}
+
+.project-tech-icon {
+  color: rgb(0, 183, 255);
+}
+
+.project-tech-unit h2 {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.project-tech-image {
+  height: 1rem;
+  width: 1rem;
+}
+
+.custom-bg {
+  width: 100%;
+  object-fit: cover;
+  height: 150rem;
+}
+
+.centerVideo {
+  height: auto;
+  width: 34rem;
+}
+
+.centerVideo-phone {
+  height: auto;
+  width: 60rem;
+}
+
+.project-div {
+  width: 80%;
+  height: 20rem;
+  background-color: rgb(255, 255, 255);
+  margin-top: 5rem;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.473);
+}
+
+.project-center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 600ms;
+  opacity: 0;
+  transform: translateY(100px);
+
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.project-center-container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-center-phone {
+  transition: 600ms;
+  opacity: 0;
+  transform: translateY(100px);
+
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-center-phone.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project-div-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 42rem;
+  height: 26rem;
+}
+
+.project-div-center-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 17.6rem;
+  padding-left: 1rem;
+  /* background: red; */
+  flex-direction: column;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.phone-mockup {
+  position: absolute;
+  top: 1.5rem;
+  left: -11.2rem;
+  right: auto;
+  width: 42rem;
+  height: auto;
+  z-index: 200;
+}
+
+.laptop-mockup {
+  position: absolute;
+  top: 10rem;
+  width: 45rem;
+  height: auto;
+  z-index: 300;
+}
+
+.project-div-left {
+  transition: 600ms;
+  opacity: 0;
+  transform: translateX(100px);
+  width: 20rem;
+  height: 30rem;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(5px);
+  /* margin-top: 5rem; */
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.473);
+  margin-left: 2rem;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.project-div-left.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.project-div-right {
+  transition: 600ms;
+  opacity: 0;
+  transform: translateX(-100px);
+  width: 20rem;
+  height: 30rem;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(5px);
+  /* margin-top: 5rem; */
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.473);
+  margin-right: 2rem;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.project-div-right.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fullPage {
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 18rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* overflow: hidden; */
+}
+
+@media (max-width: 1200px) {
+  .fullPage {
+    flex-direction: column;
+  }
+}
