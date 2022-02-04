@@ -1,0 +1,100 @@
+.languages-head {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.observer-icon {
+  height: 5rem;
+  width: auto;
+}
+
+.observer {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 300ms;
+  margin: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.observer.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.show1 {
+  transition-delay: 100ms;
+}
+
+.show2 {
+  transition-delay: 200ms;
+}
+
+.show3 {
+  transition-delay: 300ms;
+}
+
+.green-sphere {
+  /* background: rgb(0, 109, 121, 1); */
+  background: linear-gradient(
+    30deg,
+    rgba(0, 109, 121, 0) 2%,
+    rgba(0, 109, 121, 1) 100%
+  );
+}
+
+.red-sphere {
+  background: linear-gradient(
+    30deg,
+    rgba(117, 41, 73, 0.014) 2%,
+    rgba(170, 46, 98, 1) 100%
+  );
+}
+
+.technology_head {
+  position: relative;
+  /* padding-top: 5rem; */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100vw;
+
+  background: linear-gradient(
+    #00072c00 0%,
+    #00072c 17%,
+    #00072c 80%,
+    #00072c00 100%
+  );
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+}
+
+.sphere-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 40rem;
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 400px) {
+  .observer {
+    margin: 1rem;
+  }
+} ;
