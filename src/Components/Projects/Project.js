@@ -78,7 +78,7 @@ const Project = (props) => {
         <section className="project-div-right ">
           <div className="project-text">
             <h1>{props.name}</h1>
-            <u className="project-info-divider"></u>
+            <div className="project-info-divider"></div>
             <p>{props.description}</p>
           </div>
         </section>
@@ -169,12 +169,12 @@ const Project = (props) => {
         <section className="project-div-left ">
           <div className="project-text">
             <h1 style={{ fontSize: '1rem' }}>Notable Features</h1>
-            <u className="project-info-divider"></u>
+            <div className="project-info-divider"></div>
             <ul style={{ fontWeight: 'bold', color: 'rgb(71,71,71)' }}>
               {props.list}
             </ul>
             <h1 style={{ fontSize: '1rem' }}>Technologies Used</h1>
-            <u className="project-info-divider"></u>
+            <div className="project-info-divider"></div>
             <div className="project-tech-container">{props.techs}</div>
           </div>
         </section>
